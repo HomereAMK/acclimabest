@@ -8,9 +8,9 @@
 cd $PBS_O_WORKDIR
 
 # Global variables
-FOLDER="03_trimmed/assembly"
+FOLDER="/scratch/home1/jleluyer/acclimabest/03_trimmed/assembly/"
 
 #cat all reads
-	cat "$FOLDER"/*host.fastq.gz > "$FOLDER"/host.fastq.gz
+	cat "$FOLDER"/*R1.paired.fastq.gz > "$FOLDER"/paired_R1.fastq.gz
  
-	cat "$FOLDER"/*symbiont.fastq.gz > "$FOLDER"/symbiont.fastq.gz
+	cat "$FOLDER"/*R2.paired.fastq.gz > "$FOLDER"/paired_R2.fastq.gz
