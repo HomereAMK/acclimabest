@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for base in $(cat 01_info_files/files_accession.txt|awk '{print $1}'|grep -iv "model")
+for base in $(cat 01_info_files/List_SRA_fuckingJune.txt|awk '{print $1}'|grep -iv "model")
 
 do 
 
